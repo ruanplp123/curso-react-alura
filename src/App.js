@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Banner from './componentes/Banner/Banner';
+import Banner from './componentes/Banner/Banner/Banner.js';
+import Formulario from './componentes/Banner/Formulario/Formulario.js';
 
 function App() {
   return (
-    <div className="App">
-      <Banner />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-      Bem-vindo ao React! Este é um projeto de exemplo para demonstrar a estrutura básica de um aplicativo React. 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+      <Banner/>
+      <Formulario/>
     </div>
   );
 }
